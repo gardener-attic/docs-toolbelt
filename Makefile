@@ -15,7 +15,7 @@ release: docker-image docker-login docker-push
 
 .PHONY: docker-image
 docker-image:
-	@docker build -t $(IMAGE_REPOSITORY):$(IMAGE_TAG) -t $(IMAGE_REPOSITORY):latest -f docker/Dockerfile --rm .
+	@docker build -t $(IMAGE_REPOSITORY):$(IMAGE_TAG) -t $(IMAGE_REPOSITORY):latest .
 
 .PHONY: docker-login
 docker-login:

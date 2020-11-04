@@ -7,5 +7,5 @@
 set -e
 
 version=$(cat /etc/ops-toolbelt/VERSION)
-sed -e "s/\${version}/$version/" ./help-toolbelt.txt
+sed -e "s/\${version}/$version/" /usr/local/bin/help-toolbelt.txt
 echo ""

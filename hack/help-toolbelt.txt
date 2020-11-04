@@ -5,19 +5,19 @@ Commands:
 
   help-toolbelt:     This help
 
+  liche:             Broken links checker
+                     Example: markdown *.md
+
   hunspell:          Spell checker.
                      Example: hunspell -u3 **/*.md
-
-  proselint:         Expressions checker
-                     Example: proselint *.md
-
-  write-good:        Simple English expressions linter
-                     Example: write-good *.md
 
   markdownlint-cli2: Markdown linter
                      Example: markdown *.md
 
-  liche:             Broken links checker
-                     Example: markdown *.md
+  write-good:        Simple English expressions linter
+                     Example: write-good *.md
+
+  proselint:         Expressions checker
+                     Example: proselint *.md
 
 For help on a particular tool, use its help flag. Normally --help.
