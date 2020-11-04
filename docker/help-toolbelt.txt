@@ -1,0 +1,23 @@
+Documentation Tool Belt
+${version}
+
+Commands:
+
+  help-toolbelt:     This help
+
+  hunspell:          Spell checker.
+                     Example: hunspell -u3 **/*.md
+
+  proselint:         Expressions checker
+                     Example: proselint *.md
+
+  write-good:        Simple English expressions linter
+                     Example: write-good *.md
+
+  markdownlint-cli2: Markdown linter
+                     Example: markdown *.md
+
+  liche:             Broken links checker
+                     Example: markdown *.md
+
+For help on a particular tool, use its help flag. Normally --help.

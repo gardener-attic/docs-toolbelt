@@ -1,0 +1,10 @@
+/bin
+/tmp/*
+
+.vscode
+.vscode.code-workspace
+.idea
+.DS_Store
+*.~vsdx
+
+TODO
