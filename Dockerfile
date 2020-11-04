@@ -48,8 +48,9 @@ COPY --from=liche /liche /usr/local/bin/liche
 
 WORKDIR /workdir
 
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-COPY help-toolbelt /usr/local/bin/help-toolbelt
+COPY hack/entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY hack/help-toolbelt /usr/local/bin/help-toolbelt
+COPY hack/help-toolbelt.txt /usr/local/bin/help-toolbelt.txt
 COPY VERSION /etc/ops-toolbelt/VERSION
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["help-toolbelt"]
