@@ -9,6 +9,8 @@ Source: https://github.com/gardener/docs-toolbelt
 Files:
   .gitignore
   CODEOWNERS
+  VERSION
+  docker/help-toolbelt.txt
 Copyright: 2020 SAP SE or an SAP affiliate company and Gardener contributors
 License: Apache-2.0
 
