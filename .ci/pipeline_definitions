@@ -16,11 +16,8 @@ docs-toolbelt:
           docs-toolbelt:
             registry: "gcr-readwrite"
             image: "eu.gcr.io/gardener-project/docs-toolbelt"
-            dockerfile: "docker/Dockerfile"
+            dockerfile: "Dockerfile"
             tag_as_latest: true
-            inputs:
-              steps:
-                build: ~
     steps:
       compliance:
         image: "fsfe/reuse:latest"
